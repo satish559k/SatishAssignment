@@ -94,7 +94,7 @@ const Form = () => {
 
 
   return (
-    <div className=" m-auto shadow-custom mt-[120px] rounded-[20px] pt-[70px] pb-[70px] pl-[62.5px] pr-[62.5px] lg:min-h-[441px] lg:min-w-[1170px] w-auto h-auto">
+    <div className=" m-auto shadow-custom mt-[120px] rounded-[20px] pt-[70px] pb-[70px] pl-[62.5px] pr-[62.5px] lg:h-[441px] lg:w-[1170px] w-[350px] h-auto">
       <div className="flex gap-10 lg:gap-0 justify-between h-full xl:flex-row flex-col">
 
         <div className="flex flex-col text-[#505050] font-montserrat text-[18px] gap-2">
