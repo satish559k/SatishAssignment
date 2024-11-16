@@ -118,7 +118,7 @@ const Form = () => {
                 value={formValues.name}
                 onChange={handleChange}
                 placeholder={errors.name ? errors.name  : "Name"} 
-                className={`flex-1  border-b w-[300px] border-gray-300 focus:border-black outline-none text-lg placeholder-gray-400 py-2 
+                className={`flex-1  border-b w-[200px] lg:w-[300px] border-gray-300 focus:border-black outline-none text-lg placeholder-gray-400 py-2 
                   ${errors.name ? `border-red-500 border ` : ""}`}
               />
               {/* {errors.name && (
@@ -130,7 +130,7 @@ const Form = () => {
                 value={formValues.organisation}
                 onChange={handleChange}
                 placeholder={errors.organisation ? errors.organisation  : "Organization Name"} 
-                className={`flex-1 border-b w-[300px] border-gray-300 focus:border-black outline-none
+                className={`flex-1 border-b w-[200px] lg:w-[300px] border-gray-300 focus:border-black outline-none
                    text-lg placeholder-gray-400 py-2 mt-4 md:mt-0 
                    ${errors.organisation ? `border-red-500 border ` : ""}`}
 
@@ -143,7 +143,7 @@ const Form = () => {
                 value={formValues.email}
                 onChange={handleChange}
                 placeholder={errors.email ? errors.email  : "Email ID"}
-                className={`flex-1 border-b w-[300px] border-gray-300 focus:border-black outline-none 
+                className={`flex-1 border-b w-[200px] lg:w-[300px] border-gray-300 focus:border-black outline-none 
                 text-lg placeholder-gray-400 py-2 ${errors.email ? `border-red-500 border ` : ""}`}
               />
               <input
@@ -152,7 +152,7 @@ const Form = () => {
                 value={formValues.contact}
                 onChange={handleChange}
                 placeholder={errors.contact ? errors.contact  : "Contact Number"} 
-                className={`flex-1 border-b w-[300px] border-gray-300 focus:border-black outline-none 
+                className={`flex-1 border-b w-[200px] lg:w-[300px] border-gray-300 focus:border-black outline-none 
                   text-lg placeholder-gray-400 py-2 mt-4 md:mt-0 ${errors.contact ? `border-red-500 border ` : ""}`}
               />
             </div>
